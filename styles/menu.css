@@ -1,0 +1,35 @@
+.topo-site-menu-lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 73%;
+}
+
+.topo-site-menu-hamburguer-botao:checked ~ .topo-site-menu-lista{
+    display: block;
+}
+
+.topo-site-menu-hamburguer-botao{
+    display: none;
+}
+
+.lista-menu-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    width: 3em;
+    font-size: 20px;
+    font-family:var(--font-roboto);
+    font-weight: 700;
+    color: var(--cor-primaria);
+    background-color: white;
+    box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.span-menu{
+    margin: 0 1em;
+}

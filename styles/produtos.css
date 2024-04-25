@@ -1,0 +1,113 @@
+.container-banner{
+    display: flex;
+    align-items: center;
+    margin: 2em 0;
+    gap: 1em;
+}
+
+.container-produtos-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-produtos{
+    display: flex;
+}
+
+.container-produtos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.destaque-titulo{
+    margin-top:1em;
+    font-family: var(--font-roboto);
+    color: var(--cor-primaria);
+    font-weight: 600;
+}
+
+.destaque-sub-titulo{
+    margin-bottom:1em;
+    font-family: var(--font-roboto);
+    color: var(--cor-primaria);
+    font-weight: 600;
+}
+
+.lista-produtos-destaque{
+    margin-right: 40px;
+    gap: 2em;
+}
+
+.item-produtos-destaque{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px 0px rgb(73, 73, 72);
+}
+
+.imagem-destaque-produto{
+    width: 130px;
+    height: 130px;
+}
+
+.icon-coracao{
+    width: 25px;
+}
+
+.nome-produto{
+    font-family: var(--font-roboto);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--cor-primaria);
+}
+
+.preço-produto{
+    font-family: var(--font-roboto);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cor-primaria);    
+}
+
+.preço-promocao-grande{
+    font-size: 40px;
+    color: var(--cor-primaria);
+}
+
+.preco-reduzido{
+    color: var(--cor-primaria);
+}
+
+.cifrao{
+    font-size: 20px;
+    color: var(--cor-primaria);
+}
+
+@media screen and (min-width: 790px){
+
+    .lista-produtos-destaque{
+        width: 50%; 
+    }
+
+    .lista-produtos-destaque{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-right: 40px;
+        gap: 2em;
+    }
+}
+
+
+@media screen and (min-width: 1300px){
+
+    .lista-produtos-destaque{
+        width: 80%;
+    }
+
+    .imagem-destaque-produto{
+        width: 250px;
+        height: 250px;
+    }    
+}

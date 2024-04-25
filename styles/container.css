@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(250, 245, 233);
+}
+
+.prev{
+    padding: 1em;
+    background-color: var(--cor-primaria);
+    border: 2px solid var(--cor-primaria);
+    font-family: var(--font-roboto);
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 50%;
+    color: var(--cor-primaria);
+    background-color: rgb(250, 245, 233);
+    
+}
+
+.next{
+    padding: 1em;
+    background-color: var(--cor-primaria);
+    border: 2px solid var(--cor-primaria);
+    font-family: var(--font-roboto);
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 50%;
+    color: var(--cor-primaria);
+    background-color: rgb(250, 245, 233);
+}

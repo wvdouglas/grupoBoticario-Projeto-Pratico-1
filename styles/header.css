@@ -1,0 +1,107 @@
+.topo-site{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #CCB89C;
+}
+
+.topo-site-logo{
+    padding: 1em;
+}
+
+.topo-site-pesquisa{
+    margin: 0 0 2em 0;
+}
+
+.topo-site-pesquisa-input{
+    display: flex;
+    width:38vh;
+    height: 3em;
+    border: 1px solid black;
+    border-radius: 5em;
+}
+
+.topo-site-pesquisa-input::placeholder{
+    font-family: var(--font-roboto);
+    font-weight: 700;
+    font-size: 15px;
+    color: black;
+    padding: 1em;
+    background-image: url("../img/lupa.png");
+    background-repeat: no-repeat;
+    background-position: 17em;
+}
+
+.topo-site-lista-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.topo-site-menu-item a{
+    border: 1px solid #9e907b;
+    padding: 10px;
+    color: black;
+}
+
+@media screen and (min-width: 790px){
+    .topo-site-logo{
+        font-size: 45px;
+    }
+
+    .topo-site-navegacao{
+        display: flex;
+        gap: 3em;
+    }
+
+    .topo-site-lista-menu{
+        gap: 3em;
+    }
+
+    .topo-site-menu-item a{
+        border: 1px solid #9e907b;
+        padding: 10px;
+        color: black;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+
+    .topo-site-logo{
+        font-size: 50px;
+    }
+    
+    .topo-site-navegacao{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .topo-site-pesquisa{
+        margin: 0 0 2em 0;
+    }
+    
+    .topo-site-pesquisa-input{
+        display: flex;
+        width:35vh;
+        height: 3em;
+    }
+    
+    .topo-site-pesquisa-input::placeholder{
+        font-family: var(--font-roboto);
+        font-weight: 500;
+        font-size: 15px;
+        color: black;
+        padding: 1em;
+        background-image: url("../img/lupa.png");
+        background-repeat: no-repeat;
+        background-position: 18em;
+    }
+    
+    .topo-site-menu-item a:hover{
+        background-color: #ddd0bd;
+        color: black;
+    }
+}

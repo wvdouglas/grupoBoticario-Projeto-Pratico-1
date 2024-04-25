@@ -1,0 +1,19 @@
+@import url("/styles/header.css");
+@import url("/styles/produtos.css");
+@import url("/styles/menu.css");
+@import url("/styles/container.css");
+@import url("/styles/footer.css");
+
+
+:root{
+    --cor-primaria: black;
+    --cor-background:white;
+    --font-roboto: "Roboto"
+    
+}
+
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+}
